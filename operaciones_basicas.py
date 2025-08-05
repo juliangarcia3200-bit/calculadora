@@ -12,3 +12,13 @@ def resta(a, b):
     """Resta dos números."""
     return a - b
 print("Resta:", resta(5, 3))
+
+def division(a, b):
+    """Divide dos números."""
+    if b == 0:
+        return "Error: División por cero"
+    return a / b
+print("División:", division(5, 0))
+
+
+

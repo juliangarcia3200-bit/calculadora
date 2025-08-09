@@ -51,5 +51,13 @@ b = 18
 
 resultado = math.lcm(a, b)
 print("Mínimo común múltiplo:", resultado)
-=======
 
+def potencia(base, exponente):
+    """
+    Calcula la potencia de un número dado.
+    
+    :param base: La base del número.
+    :param exponente: El exponente al que se elevará la base.
+    :return: El resultado de la base elevada al exponente.
+    """
+    return base ** exponente

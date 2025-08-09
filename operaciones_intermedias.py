@@ -1,17 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 def logatimo(base, numero):
     """
     Calcula el logaritmo de un número dado en una base específica.
@@ -40,3 +27,12 @@ def numero_primo(numero):
         if numero % i == 0:
             return False
     return True
+  
+def mcd(a, b):
+    while b != 0:
+        a, b = b, a % b 
+    return a
+
+mdc = mcd(48, 18)
+print(f"El máximo común divisor de 48 y 18 es: {mdc}")
+
